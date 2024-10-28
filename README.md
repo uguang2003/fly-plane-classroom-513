@@ -1,2 +1,2 @@
 UG随便瞎搞的在教室开飞机，有缘人可以拿来玩玩
-![ed973c6c5607ea68a3976e1be0c1a19](https://github.com/user-attachments/READMEIMG/164ad193-e094-441e-89df-ec7d709e66cb)
+![游戏预览图片](https://github.com/uguang2003/fly-plane-classroom-513/blob/master/READMEIMG/%E6%B8%B8%E6%88%8F%E9%A2%84%E8%A7%88%E5%9B%BE%E7%89%87.jpg?raw=true)

@@ -37,7 +37,11 @@ public class BulletConterl : MonoBehaviour
             case "Enemy":
                 if (gameObject.name == "PlayerBullet")
                 {
-                    Handheld.Vibrate();
+                    #if UNITY_ANDROID
+                    // 在安卓平台下执行的代码
+                        Handheld.Vibrate();
+                    #endif
+
                     GameObject.Find("GameManage").GetComponent<GameManage>().Score(1);
                     GameObject tempBaozha = Instantiate(baozha, gameObject.transform.position, gameObject.transform.rotation);
                     //播放爆炸音效

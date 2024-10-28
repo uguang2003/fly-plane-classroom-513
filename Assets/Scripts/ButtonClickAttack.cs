@@ -22,8 +22,6 @@ public class ButtonClickAttack : MonoBehaviour
 
     public void Attack()
     {
-         Handheld.Vibrate();
-
         //≤•∑≈±¨’®“Ù–ß
         AudioSource.PlayClipAtPoint(planeFireAudio, gameObject.transform.position);
 
@@ -38,7 +36,6 @@ public class ButtonClickAttack : MonoBehaviour
 
     public void RangeAttack()
     {
-        Handheld.Vibrate();
         //≤•∑≈±¨’®“Ù–ß
         AudioSource.PlayClipAtPoint(planeFireAudio, gameObject.transform.position);
         for (int i = -bulletNumber / 2; i < bulletNumber / 2 + 1; i++)
